@@ -7,7 +7,7 @@ print(computer)
 
 # get a user input
 # check if user input same as computer random number
-while True :
+for _ in range(3) :
     guess = int(input("Enter your guess : "))
     if guess == computer :
         print("Congratulations, you guess are correct!!!")
